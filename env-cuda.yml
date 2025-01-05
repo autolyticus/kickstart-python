@@ -1,0 +1,20 @@
+# Using an environment name other than "base" is not recommended!
+# Read https://github.com/mamba-org/micromamba-docker#multiple-environments
+# if you must use a different environment name.
+name: base
+channels:
+  - conda-forge
+  - nvidia/label/cuda-12.2.2
+  # - nvidia/label/cuda-11.8.0
+dependencies:
+  - cuda-version==12.2
+  # - cuda-toolkit
+  # - cudatoolkit=12.2.2
+  # - cuda
+  - libcublas
+  - cudnn
+  - ocl-icd-system
+  # # - cuda-libraries-dev
+  # - pip
+  # - pip:
+  #   - nvidia-cudnn-cu11==8.9.6.50

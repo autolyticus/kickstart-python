@@ -1,0 +1,12 @@
+tiktoken
+confluent-kafka==2.3.0
+fastavro==1.9.2
+openwakeword
+pvrecorder
+pyrate-limiter==3.4.1
+lameenc
+logfmter
+cloudevents
+torch
+torchvision
+torchaudio
